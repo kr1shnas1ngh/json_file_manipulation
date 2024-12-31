@@ -41,7 +41,7 @@ Create a JavaScript program that performs the following operations on a JSON fil
 
 ## JSON Structure
 
-```js
+```
 University
   ├── Properties: name, location
   └── Departments (Array)
@@ -57,7 +57,7 @@ University
 
 ## Project File Structure
 
-```json
+```
 project-directory/
 │
 ├── index.js                   # Main entry point
