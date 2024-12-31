@@ -1,0 +1,96 @@
+{
+  "university": {
+    "name": "json tech university",
+    "location": "new york, usa",
+    "departments": [
+      {
+        "name": "computer science",
+        "hod": "jane smith",
+        "professors": [
+          {
+            "name": "alan turing",
+            "courses": [
+              "algorithms",
+              "artificial intelligence"
+            ],
+            "students": [
+              {
+                "name": "john doe",
+                "id": "cs1",
+                "year": 2
+              },
+              {
+                "name": "alice johnson",
+                "id": "cs2",
+                "year": 4
+              }
+            ]
+          },
+          {
+            "name": "grace hopper",
+            "courses": [
+              "programming languages",
+              "systems design"
+            ],
+            "students": [
+              {
+                "name": "bob brown",
+                "id": "cs3",
+                "year": 3
+              },
+              {
+                "name": "emily white",
+                "id": "cs4",
+                "year": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "mechanical engineering",
+        "hod": "henry ford",
+        "professors": [
+          {
+            "name": "nikola tesla",
+            "courses": [
+              "thermodynamics",
+              "fluid mechanics"
+            ],
+            "students": [
+              {
+                "name": "charlie green",
+                "id": "me1",
+                "year": 2
+              },
+              {
+                "name": "sophia taylor",
+                "id": "me2",
+                "year": 4
+              }
+            ]
+          },
+          {
+            "name": "james watt",
+            "courses": [
+              "machine design",
+              "robotics"
+            ],
+            "students": [
+              {
+                "name": "liam davis",
+                "id": "me3",
+                "year": 3
+              },
+              {
+                "name": "mia martinez",
+                "id": "me4",
+                "year": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
