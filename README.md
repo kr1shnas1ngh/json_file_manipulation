@@ -1,23 +1,28 @@
 
-# University Management System
+# Json File Management System
 
 ## Table of Contents
 
-1. [Task Description](#task-description)
-2. [JSON Structure](#json-structure)
-3. [Project File Structure](#project-file-structure)
-4. [Working](#working)
-   - [Main Menu](#main-menu)
-   - [Function Details](#function-details)
-     - [Insert](#insert)
-     - [Search](#search)
-     - [Update](#update)
-     - [Delete](#delete)
-     - [Exit](#exit)
-   - [JSON File Handling](#json-file-handling)
-   - [Error Handling](#error-handling)
-   - [Example Workflows](#example-workflows)
-5. [Summary](#summary)
+- [Json File Management System](#json-file-management-system)
+  - [Table of Contents](#table-of-contents)
+  - [Task Description](#task-description)
+  - [JSON Structure](#json-structure)
+  - [Project File Structure](#project-file-structure)
+  - [Working](#working)
+    - [Main Menu](#main-menu)
+    - [Function Details](#function-details)
+      - [1. Insert](#1-insert)
+      - [2. Search](#2-search)
+      - [3. Update](#3-update)
+      - [4. Delete](#4-delete)
+      - [5. Exit](#5-exit)
+    - [JSON File Handling](#json-file-handling)
+    - [Error Handling](#error-handling)
+    - [Example Workflows](#example-workflows)
+      - [Adding a New Student](#adding-a-new-student)
+      - [Searching for a Professor](#searching-for-a-professor)
+  - [Installation](#installation)
+  - [Summary](#summary)
 
 ---
 
@@ -166,9 +171,9 @@ The user's choice is processed through a `switch-case` structure, and the corres
 1. From the main menu, choose **1. Insert Data**.
 2. Select **4. Insert Student Data** from the insert menu.
 3. Enter details like:
-   - Student Department: `Computer Science`
-   - Professor Name: `Dr. Alan Turing`
-   - Student Name: `Jane Doe`
+   - Student Department: `computer science`
+   - Professor Name: `alan Turing`
+   - Student Name: `jane Doe`
    - Student ID: `cs5`
    - Student Year: `1`
 4. The new student record will be saved to the JSON file.
@@ -180,7 +185,30 @@ The user's choice is processed through a `switch-case` structure, and the corres
 3. The program will search through the JSON file and display whether the professor exists.
 
 ---
+## Installation
+Follow the following steps to setup and run the Json file management system on your local machine.
 
+1. Clone The Repository
+```bash
+git clone https://github.com/kr1shnas1ngh/json_file_manipulation.git
+```
+2. Install Node.js
+- install node from the `Node.js Official Website`  
+- To check if the node.js is installed use
+```bash
+node -v
+```
+
+3. Install Dependencies
+```bash
+npm install
+```
+
+4. Run The Application
+```bash
+node index.js
+```
+---
 ## Summary
 
 This application provides a simple way to manage hierarchical university data, including departments, professors, courses, and students. It supports dynamic updates to the data while maintaining consistency through proper validation and file handling.
